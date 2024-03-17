@@ -1,0 +1,67 @@
+[
+    {
+    "_id": {
+        "$oid": "65f670c41c6f934ce2b6a986"
+    },
+    "username": "alexMartinez",
+    "name": "Alex",
+    "lastname": "Martinez",
+    "password": "$2b$10$WZOQJCtwVRFRLMKqa8trOOQb7FE67f7AOlzLyaw7l7uG45LHjQZHm",
+    "email": "alex.martinez@example.com",
+    "age": "25",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+    "__v": 0
+    },
+    {
+    "_id": {
+        "$oid": "65f670fa1c6f934ce2b6a98a"
+    },
+    "username": "carlaGomez",
+    "name": "Carla",
+    "lastname": "Gomez",
+    "password": "$2b$10$cMlofc/3fE1CFxNY9iZGWe/owVcbOvx/ewj2Cpi0XtiwKzqkjuvDW",
+    "email": "carla.gomez@example.com",
+    "age": "30",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+    "__v": 0
+    },
+    {
+    "_id": {
+        "$oid": "65f6711e1c6f934ce2b6a98c"
+    },
+    "username": "juanPerez",
+    "name": "Juan",
+    "lastname": "Perez",
+    "password": "$2b$10$iEvKBLokQSGabYFUWr10J.Vzo/42Xvv0MW27WW43TnElDisv5vWaG",
+    "email": "juan.perez@example.com",
+    "age": "22",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+    "__v": 0
+    },
+    {
+    "_id": {
+        "$oid": "65f671291c6f934ce2b6a98e"
+    },
+    "username": "sofiaLopez",
+    "name": "Sofia",
+    "lastname": "Lopez",
+    "password": "$2b$10$MF3ZE85KYo2bDfOjbOlZherrWame9dn.tYtZMqkuEe2TX2jOQHZbW",
+    "email": "sofia.lopez@example.com",
+    "age": "28",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+    "__v": 0
+    },
+    {
+    "_id": {
+        "$oid": "65f671331c6f934ce2b6a990"
+    },
+    "username": "diegoRamirez",
+    "name": "Diego",
+    "lastname": "Ramirez",
+    "password": "$2b$10$OF5GdUx3k3VRhWQyUv..9ev0qSPeHY8ozTWUw3cu0KOIPOiQvnNbm",
+    "email": "diego.ramirez@example.com",
+    "age": "19",
+    "image": "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg",
+    "__v": 0
+    }
+]

@@ -1,0 +1,90 @@
+[
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a0"
+    },
+    "name": "Jordan 1 Retro High OG",
+    "description": "Una pieza icónica de la historia del baloncesto, remasterizada para el estilo de vida moderno.",
+    "price": 170,
+    "image1": "https://resources.claroshop.com/medios-plazavip/mkt/647f981c9a704_stock_air-jordan-1-retro-high-og-chicago-lost-found-gs-06-03-2023-20-44-43jpeg.jpg",
+    "image2": "https://bmsnkrs.com/wp-content/uploads/2022/10/air-jordan-1-retro-high-og-chicago-release-00.jpg",
+    "image3": "https://originsnyc.com/cdn/shop/products/e8c58fd9-0100-4a05-8b62-9cf6bc664994.png?v=1678858671&width=1445"
+    },
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a1"
+    },
+    "name": "Jordan 4 Retro Bred",
+    "description": "Clásico remasterizado para el confort moderno, representa una era legendaria del baloncesto.",
+    "price": 190,
+    "image1": "https://goldenkicks.mx/cdn/shop/products/jordan-4-retro-bred-2019-504419_1200x1200.jpg?v=1651538278",
+    "image2": "https://magiclamp.com.mx/wp-content/uploads/2019/07/33-1.jpg",
+    "image3": "https://imagedelivery.net/2DfovxNet9Syc-4xYpcsGg/ab969644-d3af-4836-1f10-8ae004762600/product"
+    },
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a2"
+    },
+    "name": "Air Max 90 Infrared",
+    "description": "El diseño atemporal se encuentra con la comodidad moderna en este clásico renacido.",
+    "price": 140,
+    "image1": "https://static.wixstatic.com/media/f67172_63826ad7c5f646278109b033b00353ee~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+    "image2": "https://sneakerbardetroit.com/wp-content/uploads/2020/10/Nike-Air-Max-90-Infrared-CT1685-100-Release-Date.jpg",
+    "image3": "https://media.revistagq.com/photos/5ffd66f50cf9edb91686fc14/1:1/w_854,h_854,c_limit/Nike-air-max-90-golf.jpg"
+    },
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a3"
+    },
+    "name": "Air Max 1 Anniversary Red",
+    "description": "Celebrando el legado que comenzó todo, con los colores que lo iniciaron.",
+    "price": 160,
+    "image1": "https://dbmx.com.mx/cdn/shop/products/Nike-Air-Max-1-Anniversary-Red-2017-Restock-Product.jpg?v=1624419308",
+    "image2": "https://static.nike.com/a/images/t_prod_ss/w_960,c_limit,f_auto/jwkpcyjluz70ou8hyxdt/nike-air-max-1-anniversary-white-university-red.jpg",
+    "image3": "https://media.gq.com.mx/photos/640f88b74bd8a4658aae16dc/4:3/w_2660,h_1995,c_limit/tenis-nike-air-max-1-86-big-bubble-caracteristicas-fecha-de-lanzamiento.png"
+    },
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a4"
+    },
+    "name": "Yeezy Boost 350 V2 Zebra",
+    "description": "El diseño atrevido y el confort excepcional se unen en este icónico Yeezy.",
+    "price": 220,
+    "image1": "https://magiclamp.com.mx/wp-content/uploads/2022/07/01-73.png",
+    "image2": "https://deepshopmx.com/cdn/shop/products/6_bc8ff331-10a0-4cb5-a6f0-a5fac7d56ae9_1200x1200.png?v=1580995933",
+    "image3": "https://dbmx.com.mx/cdn/shop/products/105568_08.jpg?v=1657776950&width=600"
+    },
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a5"
+    },
+    "name": "Yeezy Boost 700 Wave Runner",
+    "description": "Una silueta audaz que cambió el juego de las zapatillas para siempre.",
+    "price": 300,
+    "image1": "https://media.gq.com/photos/5a9d987ca5e5ab37549d5bf8/16:9/w_2560%2Cc_limit/0305_YeezyStyle_02_3x2.jpg",
+    "image2": "https://magiclamp.com.mx/wp-content/uploads/2022/08/2.png",
+    "image3": "https://m.media-amazon.com/images/I/41Zh3ff3D9L._AC_SY350_.jpg"
+    },
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a6"
+    },
+    "name": "Off-White x Nike Air Presto",
+    "description": "La colaboración revolucionaria entre Off-White y Nike, reimaginando el clásico Presto.",
+    "price": 600,
+    "image1": "https://sothebys-md.brightspotcdn.com/dims4/default/d747b76/2147483647/strip/true/crop/2000x2000+0+0/resize/800x800!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F73%2F0b%2Fb27be9014be7a3415ff96badd37c%2Fc4xyy-06-t2.jpg",
+    "image2": "https://www.kickgame.co.uk/cdn/shop/products/the-10-air-presto-aa3830-001_1.png?v=1658245039&width=1024",
+    "image3": "https://the-kickers.myshopify.com/cdn/shop/products/OFF-WHITE_X_NIKE_AIR_PRESTO_2_f1eaf8d6-cfeb-4a37-a37c-47582fd8288d_530x@2x.jpg?v=1537955654"
+    },
+    {
+    "_id": {
+        "$oid": "65f6607bebcba16acf0427a7"
+    },
+    "name": "Off-White x Air Jordan 1 Chicago",
+    "description": "Una pieza central de la colaboración Off-White x Nike, reinventando el icónico Jordan 1.",
+    "price": 1900,
+    "image1": "https://i0.wp.com/threadstreet.co/wp-content/uploads/off-white-x-air-jordan-1-retro-high-og-chicago-1.jpg?w=1200&ssl=1",
+    "image2": "https://m.media-amazon.com/images/I/41TXyZxDtDL._AC_SY300_.jpg",
+    "image3": "https://drop-shop.mx/cdn/shop/files/image_ca024e82-79fd-4285-bed6-921789e38316_1200x1200.png?v=1682976125"
+    }
+]
