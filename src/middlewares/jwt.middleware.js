@@ -3,7 +3,7 @@ const User = require("../models/user");
 
 const validarJWT = async (req, res, next) => {
     try {
-        const token = req.header("x-token");
+        const token = req.header("proyecto5-backend");
 
         if (!token) {
         return res.status(401).json({
