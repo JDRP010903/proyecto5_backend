@@ -5,43 +5,53 @@ const { generarJWT } = require("../helpers/jwt.helper");
 
 const registrarUsuario = async (req, res) => {
     try {
-        const { username, password } = req.body;
+        const { username, name, lastname, password, email, age, image } = req.body;
 
-        const user = await User.findOne({ username: username });
-
-        if (user) {
-        return res.status(400).json({
-            ok: false,
-            msg: "Este usuario ya esta registrado",
-            data: {},
-        });
+        // Verificar si el usuario ya existe
+        const userExist = await User.findOne({ username });
+        if (userExist) {
+            return res.status(400).json({
+                ok: false,
+                msg: "Este usuario ya está registrado",
+            });
         }
 
-        const salt = bcrypt.genSaltSync(10);
+        // Crear la sal y hashear la contraseña
+        const salt = bcrypt.genSaltSync();
+        const hashedPassword = bcrypt.hashSync(password, salt);
 
-        const usuario = {
-        username: username,
-        password: bcrypt.hashSync(password, salt),
-        };
+        // Crear el objeto usuario con la contraseña hasheada
+        const newUser = new User({
+            username,
+            name,
+            lastname,
+            password: hashedPassword,
+            email,
+            age,
+            image: image || "https://as1.ftcdn.net/v2/jpg/03/46/83/96/1000_F_346839683_6nAPzbhpSkIpb8pmAwufkC7c5eD7wYws.jpg", // Imagen por defecto si no se proporciona
+        });
 
-        const usuario_registrado = await User(usuario).save();
+        // Guardar el usuario en la base de datos
+        const usuarioRegistrado = await newUser.save();
 
-        const token = await generarJWT(usuario_registrado.id);
+        // Generar el JWT
+        const token = await generarJWT(usuarioRegistrado.id);
 
+        // Enviar respuesta exitosa
         return res.json({
-        ok: true,
-        msg: "Usuario registrado",
-        data: usuario_registrado,
-        token: token,
+            ok: true,
+            msg: "Usuario registrado exitosamente",
+            data: usuarioRegistrado,
+            token,
         });
     } catch (error) {
+        console.error(error);
         return res.status(500).json({
-        ok: false,
-        msg: "Error en el servidor",
-        data: {},
+            ok: false,
+            msg: "Error interno del servidor",
         });
     }
-    };
+};
 
     const iniciarSesion = async (req, res) => {
     try {
